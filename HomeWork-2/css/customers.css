@@ -1,0 +1,96 @@
+.customers-section {
+    padding: 80px 0 119px 0;
+   background-color:  #ffffff;
+}
+.customers-title {
+    color: #212121;
+}
+.customers-title::after {
+    content: '';
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    display: block;
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+.customers-discription {
+    margin: auto;
+    margin-bottom: 67px;
+}
+.customersrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 -15px;
+}
+.customersrow-item {
+    margin: 0 15px;
+    width: 298px;
+}
+.customersrow-item__text {
+    margin-bottom: 22px;
+    padding: 9px 22px;
+    width: 298px;
+    background-color: #E2E2E2;
+    border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #86878B;
+    position: relative;
+}
+.customersrow-item__text::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-right: 17px solid transparent;
+    border-bottom: 17px solid  #E2E2E2;
+    position: absolute;
+    transform: rotate(-45deg);
+    display: block;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+.customersrow-item__person {
+    margin: auto;
+    max-width: 200px;
+    position: relative;
+}
+.customersrow-item__person::before {
+    content: '';
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/person.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-right: 45px;
+}
+.customersrow-item__title{
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: right;
+    margin-bottom: 12px;
+}
+
+.customersrow-item__discription{
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
