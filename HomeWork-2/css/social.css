@@ -1,0 +1,38 @@
+.social-section {
+    padding-top: 15px;
+    padding-bottom: 34px;
+    background-color: #F8EFEF;
+}
+.social-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.social-discribe {
+    width: 365px;
+}
+.social-discribe__title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.social-title__discription {
+    text-align: left;
+}
+.social-icons {
+    margin-top: 17px;
+    display: flex;
+    width: 684px;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-social {
+    font-size: 42px;
+    color: #86878B;
+    transition: 0.3s;
+}
+.icon-social:hover {
+    transform: scale(1.5, 1.5);
+    color: #D98943;
+}

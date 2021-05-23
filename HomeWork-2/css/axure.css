@@ -40,7 +40,7 @@
     font-style: 16px;
     line-height: 19px;
     color: #FFFFFFCC;
-    ;
+    text-align: center;
 }
 .axure-button {
     padding: 11px 26px;
@@ -50,9 +50,11 @@
     display: block;
     color: #FFFFFF;
     width: 135px;
-   
+   transition: 0.3s;
 }
 .axure-button:hover {
-    border: 1px solid rgb(159, 159, 165);
-    color: rgb(159, 159, 165);
+    border: 1px solid #D98943;
+    color: #D98943;
+    transform: scale(1.2, 1.2);
+    box-shadow: inset 0px 0px 20px 0px rgba(201, 155, 28, 0.55);
 }

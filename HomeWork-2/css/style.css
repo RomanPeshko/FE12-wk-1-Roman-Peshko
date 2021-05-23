@@ -2,6 +2,9 @@
 @import url('../css/pricing.css');
 @import url('../css/customers.css');
 @import url('../css/axure.css');
+@import url('../css/header.css');
+@import url('../css/social.css');
+@import url('../css/footer.css');
 
 * {
     margin: 0;
@@ -36,7 +39,6 @@ section {
     text-transform: uppercase;
 }
 .discription {
-    text-align: center;
     font-size: 14px;
     line-height: 19px;
     height: 19px;
