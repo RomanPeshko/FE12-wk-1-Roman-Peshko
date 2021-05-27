@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <title>WHY THIS IS AWESOME</title>
 </head>
 <body>
+
     <!--Блок header-->
     <header class="header">
         <div class="container header-container">
             <div class="header-logo">
                 <p>AX</p>
             </div>
+            <nav class="header-nav">
                 <ul class="header-nav__list">
                     <li class="header-list">
                         <a href="#" class="header-list__link">
@@ -44,43 +48,144 @@
                         </a>
                     </li>
                 </ul>
+            </nav>
         </div>
     </header>
+
+    <!--Секция modern-->
+    <section class="section modern-section">
+        <div class="container modern-container">
+            <div class="modern-subject">
+                <div class="modern-logo">
+                    <p>AX</p>
+                </div>
+                <div class="title modern-title">
+                    <h2>
+                        MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+                    </h2>
+                </div>
+                <div class="discription modern-discription">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean
+                    </p>
+                </div>
+                <a href="#" class="modern-button">
+                    Download
+                </a>
+            </div>
+            <form action="#" name="modern" method="POST">
+                <div class="modern-form">
+                    <h3 class="modern-form__title">
+                        try your <span>FREE</span> trial today
+                    </h3>
+                    <div class="modern-form__item">
+                        <label for="name">Name</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="modern-form__item">
+                        <label for="Email">Email</label>
+                        <input type="email" id="Email">
+                    </div>
+                    <div class="modern-form__item">
+                        <label for="Password">Password</label>
+                        <input type="password" id="Password">
+                    </div>
+                </div>
+                <button type="submit" class="modern-form__button">
+                    Get Started
+                </button>
+            </form>
+        </div>
+    </section>
+
     <!--Секция social-->
     <section class="section social-section">
         <div class="container social-container">
-            <div class="social-discribe">
-                <h3 class="social-discribe__title">
-                    Social Media
-                </h3>
-                <p class="discription social-title__discription">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
-                </p>
-            </div>
-            <div class="social-icons">
-                <a href='#'>
-                    <i class="icon-social fab fa-facebook-f"></i>
-                </a>    
-                <a href='#'>
-                    <i class="icon-social fab fa-google-plus-g"></i>
-                <a href='#'>
-                    <i class="icon-social fab fa-twitter-square"></i>
-                </a> 
-                <a href='#'>
-                    <i class="icon-social fab fa-pinterest"></i>
-                </a> 
-                <a href='#'>
-                    <i class="icon-social fab fa-instagram"></i>
-                </a> 
-                <a href='#'>
-                    <i class="icon-social fab fa-stumbleupon"></i>
-                </a> 
-                <a href='#'>
-                    <i class="icon-social fas fa-rss"></i>
-                </a> 
+            <div class="social-content">
+                <div class="social-discribe">
+                    <h3 class="social-discribe__title">
+                        Social Media
+                    </h3>
+                    <div class="discription social-title__discription">
+                        <p >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                        </p>
+                    </div>
+                 </div>
+                <div class="social-icons">
+                    <a href='#'>
+                        <i class="icon-social__facebook fab fa-facebook-f"></i>
+                    </a>    
+                    <a href='#'>
+                        <i class="icon-social__google fab fa-google-plus-g"></i>
+                    <a href='#'>
+                        <i class="icon-social__twitter fab fa-twitter-square"></i>
+                    </a> 
+                    <a href='#'>
+                        <i class="icon-social__pinterest fab fa-pinterest"></i>
+                    </a> 
+                    <a href='#'>
+                        <i class="icon-social__instagram fab fa-instagram"></i>
+                    </a> 
+                    <a href='#'>
+                        <i class="icon-social__stumbleupon fab fa-stumbleupon"></i>
+                    </a> 
+                    <a href='#'>
+                        <i class="icon-social__rss fas fa-rss"></i>
+                    </a> 
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <!--Секция feautures-->
+    <section class="section feautures-section">
+        <div class="container">
+            <div class="feautures-row">
+                <div class="feautures-row__tab">
+                    <div class="feautures-tab__element">
+                        <p>
+                            TAB 1
+                        </p>
+                    </div>
+                    <div class="feautures-tab__element">
+                        <p>
+                            TAB 1
+                        </p>
+                    </div>
+                    <div class="feautures-tab__element">
+                        <p>
+                            TAB 1
+                        </p>
+                    </div>
+                </div>
+                <div class="feautures-row__text">
+                    <h3 class="feautures-text__title">
+                        Tabs with soft transitioning effect.
+                    </h3>
+                    <div class="discription feautures-text__discription">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                            penatibus et magnis dis parturient montes.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                            bibendum laoreet.
+                        </p>
+                        <a href="#" class="feautures-text__link">
+                            Download
+                        </a>
+                    </div>
+                </div>
+                <div class="feautures-row__image">
+                    <img src="./img/blackcity.png" alt="blackcity">
+                </div>
             </div>
         </div>
     </section>
+
     <!--Секция awesome-->
     <section class="section awesome-section">
         <div class="container">
@@ -337,7 +442,7 @@
     </section>
      <!--секция axure-->
      <section class="section axure-section">
-        <div class="container">
+        <div class="container axure-container">
             <h2 class="title axure-title">
                 stylish axure design
             </h2>
@@ -352,29 +457,68 @@
         </div>
     </section>
 
+    <!--Секция contact-->
+    <section class="section contact-section">
+        <div class="container">
+            <h2 class="title contact-title">
+                contact us
+            </h2>
+            <div class="discription contact-discription">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+            </div>
+            <form action="#" name="contact" method="POST">
+                <div class="contact-form__row">
+                    <div class="contact-row__items">
+                        <div class="contact-item">
+                            <label for="name">Name</label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="contact-item">
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="contact-item">
+                            <label for="password">Password</label>
+                            <input type="password" id="password">
+                        </div>
+                    </div>
+                    <div class="contact-row__massage">
+                        <label for="massage">Massage</label>
+                        <textarea name="" id="massage" cols="0" rows="0"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="contact-button">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
      <!--Блок footer-->
     <footer class="footer">
         <div class="container footer-container">
             <div class="footer-icons">
                 <a href='#'>
-                    <i class="icon-footer fab fa-facebook-f"></i>
+                    <i class="icon-footer__facebook fab fa-facebook-f"></i>
                 </a>    
                 <a href='#'>
-                    <i class="icon-footer fab fa-google-plus-g"></i>
+                    <i class="icon-footer__google fab fa-google-plus-g"></i>
                 <a href='#'>
-                    <i class="icon-footer fab fa-twitter-square"></i>
+                    <i class="icon-footer__twitter fab fa-twitter-square"></i>
                 </a> 
                 <a href='#'>
-                    <i class="icon-footer fab fa-pinterest"></i>
+                    <i class="icon-footer__pinterest fab fa-pinterest"></i>
                 </a> 
                 <a href='#'>
-                    <i class="icon-footer fab fa-instagram"></i>
+                    <i class="icon-footer__instagram fab fa-instagram"></i>
                 </a> 
                 <a href='#'>
-                    <i class="icon-footer fab fa-stumbleupon"></i>
+                    <i class="icon-footer__stumbleupon fab fa-stumbleupon"></i>
                 </a> 
                 <a href='#'>
-                    <i class="icon-footer fas fa-rss"></i>
+                    <i class="icon-footer__rss fas fa-rss"></i>
                 </a> 
             </div>
             <h5 class="footer-text">

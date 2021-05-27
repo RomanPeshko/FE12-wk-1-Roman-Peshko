@@ -3,13 +3,14 @@
     background-color: #F5F5F5;
 }
 .pricing-title { 
+    text-align: center;
     color: #212121;
 }
 .pricing-title::after {
     content: '';
     width: 64px;
     height: 2px;
-    background-color: #E72424;
+    background-color: #D98943;
     display: block;
     margin: auto;
     margin-top: 34px;
@@ -19,6 +20,7 @@
     margin: auto;
     margin-bottom: 63px;
     text-align: center;
+    color: #86878B;
 }
 .pricing-card {
     display: flex;

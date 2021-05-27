@@ -19,6 +19,9 @@
     top: 0;
     left: 0;
 }
+.axure-container {
+    text-align: center;
+}
 .axure-title {
     color: #FFFFFF;
 }
@@ -40,17 +43,13 @@
     font-style: 16px;
     line-height: 19px;
     color: #FFFFFFCC;
-    text-align: center;
 }
 .axure-button {
     padding: 11px 26px;
-    background-color: rgba(0, 0, 0, 0.0);
     border: 1px solid #FFFFFF;
-    margin: auto;
-    display: block;
+    display: inline-block;
     color: #FFFFFF;
-    width: 135px;
-   transition: 0.3s;
+    transition: 0.3s;
 }
 .axure-button:hover {
     border: 1px solid #D98943;

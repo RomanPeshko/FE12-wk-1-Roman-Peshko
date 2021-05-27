@@ -11,13 +11,72 @@
 }
 .icon-footer {
     font-size: 23px;
-    color: #86878B;
-    margin-bottom: 18px;
     transition: 0.3s;
 }
-.icon-footer:hover {
+.icon-footer__facebook {
+    color: rgba(59, 89, 152, 0.5);
+    transition: 0.3s;
+}
+.icon-footer__facebook:hover {
     transform: scale(1.5, 1.5);
-    color: #D98943;
+    color: rgba(59, 89, 152, 1);
+}
+.icon-footer__google {
+    color: rgba(219, 110, 110, 0.5);
+    transition: 0.3s;
+}
+.icon-footer__google:hover {
+    transform: scale(1.5, 1.5);
+    color: rgba(219, 110, 110, 1);
+}
+.icon-footer__twitter {
+    color: rgba(59, 137, 238, 0.5);
+    transition: 0.3s;
+}
+.icon-footer__twitter:hover {
+    transform: scale(1.5, 1.5);
+    color: rgba(59, 137, 238, 1);
+}
+.icon-footer__pinterest {
+    color: rgba(255, 7, 7, 0.5);
+    transition: 0.3s;
+}
+.icon-footer__pinterest:hover {
+    transform: scale(1.5, 1.5);
+    color: rgba(255, 7, 7, 1);
+}
+.icon-footer__instagram {
+    color: rgba(150, 149, 149, 0.5);
+    transition: 0.3s;
+    border-radius: 7px;
+}
+.icon-footer__instagram:hover {
+    color: white;
+    transform: scale(1.5, 1.5);
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+}
+.icon-footer__stumbleupon {
+    color: rgba(255, 85, 7, 0.5);
+    transition: 0.3s;
+}
+.icon-footer__stumbleupon:hover {
+    transform: scale(1.5, 1.5);
+    color: rgba(255, 85, 7, 1);
+}
+.icon-footer__rss {
+    color: rgba(245, 162, 9, 0.5);
+    transition: 0.3s;
+}
+.icon-footer__rss:hover {
+    transform: scale(1.5, 1.5);
+    color: rgba(245, 162, 9, 1);
 }
 .footer-text {
     font-family: 'Open Sans', sans-serif;
@@ -25,4 +84,5 @@
     font-size: 12px;
     color: #FFFFFF80;
     text-align: center;
+    margin-top: 18px;
 }
