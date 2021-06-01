@@ -1,16 +1,16 @@
 .footer {
-    padding-top: 30px;
-    padding-bottom: 15px;
+    padding-top: 1.875rem;
+    padding-bottom: 0.9375rem;
     background-color:  #000000;
 }
 .footer-icons {
-    width: 317px;
+    width: 19.8125rem;
     display: flex;
     justify-content: space-between;
     margin: auto;
 }
 .icon-footer {
-    font-size: 23px;
+    font-size: 1.4375rem;
     transition: 0.3s;
 }
 .icon-footer__facebook {
@@ -81,7 +81,7 @@
 .footer-text {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #FFFFFF80;
     text-align: center;
     margin-top: 18px;

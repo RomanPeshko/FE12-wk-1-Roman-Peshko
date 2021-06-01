@@ -1,5 +1,5 @@
 .pricing-section {
-    padding: 80px 0;
+    padding: 5rem 0;
     background-color: #F5F5F5;
 }
 .pricing-title { 
@@ -13,12 +13,12 @@
     background-color: #D98943;
     display: block;
     margin: auto;
-    margin-top: 34px;
-    margin-bottom: 34px;
+    margin-top: 2.125rem;
+    margin-bottom: 2.125rem;
 }
 .pricing-discription {
     margin: auto;
-    margin-bottom: 63px;
+    margin-bottom: 3.9375rem;
     text-align: center;
     color: #86878B;
 }
@@ -29,34 +29,37 @@
     flex-direction: row;
     margin: 0 -15px;
 }
-.pricing-card__item:nth-child(2) {
-    margin-top: -20px;
-}
 .pricing-card__item {
     margin: 0 15px;
-    width: 340px;
+    width: 21.25rem;
+    transition: 0.5s;
 }
+.pricing-card__item:hover {
+    transform: matrix(1, 0, 0, 1, 0, -20);
+}
+
 .pricing-card__list {
     text-align: center;
 }
+
 .pricing-list:first-child { 
     background-color: #333333;
     color: #FFFFFF;
-    padding-top: 15px;
-    padding-bottom: 9px;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.5625rem;
     font-family:  'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .pricing-list:nth-child(2) {
     margin-top: 1px;
     background-color: #333333;
     color: #FFFFFF;
-    padding-top: 26px;
-    padding-bottom: 33px;
+    padding-top: 1.625rem;
+    padding-bottom: 2.0625rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 2.1875rem;
 }
 .pricing-list:nth-child(3) {
     margin-top: 2px;
@@ -64,9 +67,9 @@
     color: #FFFFFF80;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 14px;
-    padding-top: 17px;
-    padding-bottom: 14px;
+    font-size: 0.875rem;
+    padding-top: 1.0625rem;
+    padding-bottom: 0.875rem;
 }
 .pricing-list:nth-child(3):hover {
     margin-top: 2px;
@@ -74,9 +77,9 @@
     color:  #FFFFFF80;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    font-size: 14px;
-    padding-top: 17px;
-    padding-bottom: 14px;
+    font-size: 0.875rem;
+    padding-top: 1.0625rem;
+    padding-bottom: 0.875rem;
 }
 .pricing-list {
     margin-top: 4px;
@@ -84,7 +87,7 @@
     color: #86878B;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 14px;
-    padding-top: 10px;
-    padding-bottom: 11px;
+    font-size: 0.875rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.6875rem;
 }

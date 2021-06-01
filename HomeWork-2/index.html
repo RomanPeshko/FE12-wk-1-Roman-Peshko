@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scalable=1.0, minimum-scalable=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,85 +16,87 @@
 
     <!--Блок header-->
     <header class="header">
-        <div class="container header-container">
-            <div class="header-logo">
-                <p>AX</p>
+        <div class="container container-header">
+            <div class="header-contant">
+                <div class="header-logo">
+                    <p>AX</p>
+                </div>
+                <nav class="header-nav">
+                    <ul class="header-nav__list">
+                        <li class="header-list">
+                            <a href="#" class="header-list__link">
+                                Feautures
+                            </a>
+                        </li>
+                        <li class="header-list">
+                            <a href="#" class="header-list__link">
+                                About
+                            </a>
+                        </li>
+                        <li class="header-list">
+                            <a href="#" class="header-list__link">
+                                Pricing
+                            </a>
+                        </li>
+                        <li class="header-list">
+                            <a href="#" class="header-list__link">
+                                Reviews
+                            </a>
+                        </li>
+                        <li class="header-list">
+                            <a href="#" class="header-list__link">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="header-nav">
-                <ul class="header-nav__list">
-                    <li class="header-list">
-                        <a href="#" class="header-list__link">
-                            Feautures
-                        </a>
-                    </li>
-                    <li class="header-list">
-                        <a href="#" class="header-list__link">
-                            About
-                        </a>
-                    </li>
-                    <li class="header-list">
-                        <a href="#" class="header-list__link">
-                            Pricing
-                        </a>
-                    </li>
-                    <li class="header-list">
-                        <a href="#" class="header-list__link">
-                            Reviews
-                        </a>
-                    </li>
-                    <li class="header-list">
-                        <a href="#" class="header-list__link">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </nav>
         </div>
     </header>
 
     <!--Секция modern-->
     <section class="section modern-section">
-        <div class="container modern-container">
-            <div class="modern-subject">
-                <div class="modern-logo">
-                    <p>AX</p>
+        <div class="container">
+            <div class="modern-contant">
+                <div class="modern-subject">
+                    <div class="modern-logo">
+                        <p>AX</p>
+                    </div>
+                    <h1 class="title modern-title">
+                            MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+                    </h1>
+                    <div class="discription modern-discription">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean
+                        </p>
+                    </div>
+                    <a href="#" class="modern-button">
+                        Download
+                    </a>
                 </div>
-                <div class="title modern-title">
-                    <h2>
-                        MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
-                    </h2>
-                </div>
-                <div class="discription modern-discription">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean
-                    </p>
-                </div>
-                <a href="#" class="modern-button">
-                    Download
-                </a>
+                <form action="#" name="modern" method="POST" class="modern-content_form">
+                    <div class="modern-form">
+                        <h3 class="modern-form__title">
+                            try your <span>FREE</span> trial today
+                        </h3>
+                        <div class="modern-form__item">
+                            <label for="username-one">Name</label>
+                            <input type="text" id="username-one">
+                        </div>
+                        <div class="modern-form__item">
+                            <label for="useremail-one">Email</label>
+                            <input type="email" id="useremail-one">
+                        </div>
+                        <div class="modern-form__item">
+                            <label for="userpassword-one">Password</label>
+                            <input type="password" id="userpassword-one">
+                        </div>
+                    </div>
+                    <button type="submit" class="modern-form__button">
+                        Get Started
+                    </button>
+                </form>
             </div>
-            <form action="#" name="modern" method="POST">
-                <div class="modern-form">
-                    <h3 class="modern-form__title">
-                        try your <span>FREE</span> trial today
-                    </h3>
-                    <div class="modern-form__item">
-                        <label for="name">Name</label>
-                        <input type="text" id="name">
-                    </div>
-                    <div class="modern-form__item">
-                        <label for="Email">Email</label>
-                        <input type="email" id="Email">
-                    </div>
-                    <div class="modern-form__item">
-                        <label for="Password">Password</label>
-                        <input type="password" id="Password">
-                    </div>
-                </div>
-                <button type="submit" class="modern-form__button">
-                    Get Started
-                </button>
-            </form>
         </div>
     </section>
 
@@ -112,28 +114,43 @@
                         </p>
                     </div>
                  </div>
-                <div class="social-icons">
-                    <a href='#'>
-                        <i class="icon-social__facebook fab fa-facebook-f"></i>
-                    </a>    
-                    <a href='#'>
-                        <i class="icon-social__google fab fa-google-plus-g"></i>
-                    <a href='#'>
-                        <i class="icon-social__twitter fab fa-twitter-square"></i>
-                    </a> 
-                    <a href='#'>
-                        <i class="icon-social__pinterest fab fa-pinterest"></i>
-                    </a> 
-                    <a href='#'>
-                        <i class="icon-social__instagram fab fa-instagram"></i>
-                    </a> 
-                    <a href='#'>
-                        <i class="icon-social__stumbleupon fab fa-stumbleupon"></i>
-                    </a> 
-                    <a href='#'>
-                        <i class="icon-social__rss fas fa-rss"></i>
-                    </a> 
-                </div>
+                <ul class="social-icons">
+                    <li class="social-icons__list">
+                        <a href='#'>
+                            <i class="icon-social__facebook fab fa-facebook-f"></i>
+                        </a>
+                    </li>  
+                    <li class="social-icons__list"> 
+                        <a href='#'>
+                            <i class="icon-social__google fab fa-google-plus-g"></i>
+                        </a>
+                    </li> 
+                    <li class="social-icons__list">
+                        <a href='#'>
+                            <i class="icon-social__twitter fab fa-twitter-square"></i>
+                        </a> 
+                    </li>
+                    <li class="social-icons__list">
+                        <a href='#'>
+                            <i class="icon-social__pinterest fab fa-pinterest"></i>
+                        </a> 
+                    </li>
+                    <li class="social-icons__list">
+                        <a href='#'>
+                            <i class="icon-social__instagram fab fa-instagram"></i>
+                        </a> 
+                    </li>
+                    <li class="social-icons__list">
+                        <a href='#'>
+                            <i class="icon-social__stumbleupon fab fa-stumbleupon"></i>
+                        </a> 
+                    </li>
+                    <li class="social-icons__list">
+                        <a href='#'>
+                            <i class="icon-social__rss fas fa-rss"></i>
+                        </a> 
+                    </li>
+                </ul>
             </div>  
         </div>
     </section>
@@ -143,21 +160,15 @@
         <div class="container">
             <div class="feautures-row">
                 <div class="feautures-row__tab">
-                    <div class="feautures-tab__element">
-                        <p>
+                    <button class="feautures-tab__element">
                             TAB 1
-                        </p>
-                    </div>
-                    <div class="feautures-tab__element">
-                        <p>
+                    </button>
+                    <button class="feautures-tab__element">
                             TAB 1
-                        </p>
-                    </div>
-                    <div class="feautures-tab__element">
-                        <p>
+                    </button>
+                    <button class="feautures-tab__element">
                             TAB 1
-                        </p>
-                    </div>
+                    </button>
                 </div>
                 <div class="feautures-row__text">
                     <h3 class="feautures-text__title">
@@ -180,7 +191,7 @@
                     </div>
                 </div>
                 <div class="feautures-row__image">
-                    <img src="./img/blackcity.png" alt="blackcity">
+                    <img src="./img/blackcity.png" class="feautures-row__imagecity" alt="blackcity">
                 </div>
             </div>
         </div>
@@ -199,7 +210,7 @@
             <div class="awesomerow">
                 <div class="awesomerow-item">
                     <div class="awesomerow-item__image">
-                        <img src="./img/light.png" alt="light">
+                        <i class="far fa-lightbulb"></i>
                     </div>
                     <h3 class="awesomerow-item__title">
                         Thoughtful design
@@ -216,7 +227,7 @@
                 </div>
                 <div class="awesomerow-item">
                     <div class="awesomerow-item__image">
-                        <img  src="./img/keyboard.png" alt="keyboard">
+                        <i class="far fa-keyboard"></i>
                     </div>
                     <h3 class="awesomerow-item__title">
                         Whell Crafted
@@ -233,7 +244,7 @@
                 </div>
                 <div class="awesomerow-item">
                     <div class="awesomerow-item__image">
-                        <img src="./img/lightning.png" alt="lightning">
+                        <i class="fas fa-bolt"></i>
                     </div>
                     <h3 class="awesomerow-item__title">
                         Easy to Customize
@@ -472,16 +483,16 @@
                 <div class="contact-form__row">
                     <div class="contact-row__items">
                         <div class="contact-item">
-                            <label for="name">Name</label>
-                            <input type="text" id="name">
+                            <label for="username-two">Name</label>
+                            <input type="text" id="username-two">
                         </div>
                         <div class="contact-item">
-                            <label for="email">Email</label>
-                            <input type="email" id="email">
+                            <label for="useremail-two">Email</label>
+                            <input type="email" id="useremail-two">
                         </div>
                         <div class="contact-item">
-                            <label for="password">Password</label>
-                            <input type="password" id="password">
+                            <label for="userpassword-two">Password</label>
+                            <input type="password" id="userpassword-two">
                         </div>
                     </div>
                     <div class="contact-row__massage">
@@ -499,28 +510,43 @@
      <!--Блок footer-->
     <footer class="footer">
         <div class="container footer-container">
-            <div class="footer-icons">
-                <a href='#'>
-                    <i class="icon-footer__facebook fab fa-facebook-f"></i>
-                </a>    
-                <a href='#'>
-                    <i class="icon-footer__google fab fa-google-plus-g"></i>
-                <a href='#'>
-                    <i class="icon-footer__twitter fab fa-twitter-square"></i>
-                </a> 
-                <a href='#'>
-                    <i class="icon-footer__pinterest fab fa-pinterest"></i>
-                </a> 
-                <a href='#'>
-                    <i class="icon-footer__instagram fab fa-instagram"></i>
-                </a> 
-                <a href='#'>
-                    <i class="icon-footer__stumbleupon fab fa-stumbleupon"></i>
-                </a> 
-                <a href='#'>
-                    <i class="icon-footer__rss fas fa-rss"></i>
-                </a> 
-            </div>
+            <ul class="footer-icons">
+                <li>
+                    <a href='#'>
+                        <i class="icon-footer__facebook fab fa-facebook-f"></i>
+                    </a> 
+                </li> 
+                <li>
+                    <a href='#'>
+                        <i class="icon-footer__google fab fa-google-plus-g"></i>
+                    </a>
+                </li>  
+                <li>
+                    <a href='#'>
+                        <i class="icon-footer__twitter fab fa-twitter-square"></i>
+                    </a> 
+                </li>
+                <li>
+                    <a href='#'>
+                        <i class="icon-footer__pinterest fab fa-pinterest"></i>
+                    </a> 
+                </li>
+                <li>
+                    <a href='#'>
+                        <i class="icon-footer__instagram fab fa-instagram"></i>
+                    </a> 
+                </li>
+                <li>
+                    <a href='#'>
+                        <i class="icon-footer__stumbleupon fab fa-stumbleupon"></i>
+                    </a> 
+                </li>
+                <li>
+                    <a href='#'>
+                        <i class="icon-footer__rss fas fa-rss"></i>
+                    </a> 
+                </li>
+            </ul>
             <h5 class="footer-text">
                 © 2021 Axure Themes
             </h5>
