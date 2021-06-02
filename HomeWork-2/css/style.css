@@ -146,12 +146,17 @@ section {
 
      /*Секция feautures*/
     
-     .feautures-tab__element:last-child {
+    .feautures-tab__element:last-child {
         margin-bottom: 0.625rem;
+    }
+    .feautures-tab__element {
+       margin-left: 15px;
+       margin-right: 15px;
     }
      .feautures-row__tab {
          display: flex;
-         justify-content: space-around;
+         justify-content: center;
+
      }
      
      .feautures-row  {
@@ -201,6 +206,7 @@ section {
     /*секция feautures*/
 
     .feautures-tab__element {
+        padding: 2.2rem 1.7rem;
         margin-left: 5px;
         margin-right: 5px;
     }
@@ -263,4 +269,18 @@ section {
         width: 100%;
     }
     /*секция contact*/
+}
+@media (max-width:620px) {
+    .header-contant {
+        flex-direction: column;
+    }
+    .header-logo {
+        margin-bottom: 30px;
+    }
+    .header-nav__list {
+        margin: 0;
+    }
+    .header-list {
+        margin-right: 0;
+    }
 }

@@ -10,30 +10,40 @@
 }
 .feautures-row__tab {
     margin: 0 15px;
+    margin-top: 20px;
 }
 .feautures-tab__element {
+    max-width: 7rem;
+    max-height: 6.875rem;
     padding: 2.8125rem 2.1875rem;
     background-color: #333333;
     border-radius: 4px;
     margin-bottom: 0.625rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 0.9375rem;
+    font-size: 0.775rem;
     color:  #FFFFFF;
     text-align: center;
     display: block;
-    transition: 1s;
+    transition: 0.3s;
 }
 .feautures-tab__element:hover {
     background-color: #D98943;
     border: 2px solid #f39e53;
     transform: rotate(360deg);
+    cursor: pointer;
+}
+.feautures-tab__element:active {
+    background-color: #808080;
+    border: 2px solid #a8a8a8;
+    color: black;
 }
 .feautures-tab__element:last-child {
     margin-bottom: 0;
 }
 .feautures-row__text {
     margin: 0 15px;
+    margin-top: 20px;
     text-align: left;
     max-width: 35.75rem;
 }
